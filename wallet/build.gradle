@@ -36,6 +36,11 @@ repositories {
     }
 }
 
+android {
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+}
 //sourceSets {
 //    unitTest {
 //        java.srcDir file('src/test/java')
